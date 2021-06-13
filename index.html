@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Treasure Hunt</title>
+    <link rel="shortcut icon" type="image/jpg" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/thumbs-up_1f44d.png"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="treasurehunt.css">
+  </head>
+  <body>
+​
+    <h1>Treasure Hunt</h1>
+​
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFK8pS4dgyz9ar9YdFiZkpjokDGzhtbgv-5w&usqp=CAU" alt="cartoon treasure chest" width="300px">
+​
+    <h2>Game Rules</h2>
+    <ul>
+      <li>Click the boxes to reveal what's on the map</li>
+      <li>If you click on the bomb you lose</li>
+      <li>If you click on the treasure you win</li>
+    </ul>
+    <p>
+      <div id="game-clicks">Piles of dirt left: 16</div>
+      <h3><div id="game-status"></div></h3>
+    </p>
+    <table>
+      <tr>
+        <td id="0" onclick="treasure(0)"></td>
+        <td id="1" onclick="treasure(1)"></td>
+        <td id="2" onclick="treasure(2)"></td>
+        <td id="3" onclick="treasure(3)"></td>
+      </tr>
+      <tr>
+        <td id="4" onclick="treasure(4)"></td>
+        <td id="5" onclick="treasure(5)"></td>
+        <td id="6" onclick="treasure(6)"></td>
+        <td id="7" onclick="treasure(7)"></td>
+      </tr>
+      <tr>
+        <td id="8" onclick="treasure(8)"></td>
+        <td id="9" onclick="treasure(9)"></td>
+        <td id="10" onclick="treasure(10)"></td>
+        <td id="11" onclick="treasure(11)"></td>
+      <tr>
+        <td id="12" onclick="treasure(12)"></td>
+        <td id="13" onclick="treasure(13)"></td>
+        <td id="14" onclick="treasure(14)"></td>
+        <td id="15" onclick="treasure(15)"></td>
+      </tr>
+    </table>
+​
+    <button onclick="location.reload()" type="button" name="button">Restart Game</button>
+​
+    <footer>
+      <p>Creators: Lauralyn and Raul</p>
+      <p><a href="https://www.learnacademy.org/">Learn to code</a></p>
+    </footer>
+​
+    <script type="text/javascript" src="treasurehunt.js"></script>
+  </body>
+</html>
